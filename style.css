@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav {
+    border: none;
+    border-bottom: 0.2vh solid black;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+
+.nav-left {
+    display: flex;
+    border: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.nav-right {
+    display: flex;
+    border: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+a:hover {
+    background-color: rgb(199, 193, 193);
+}
+
+.nav-left a {
+    text-decoration: none;
+    font-size: large;
+    color: black;
+    margin-left: 28px;
+    font-size: large;
+    padding: 10px;
+
+}
+
+.nav-right a {
+    text-decoration: none;
+    margin-right: 40px;
+    color: black;
+    font-size: large;
+    padding: 10px;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header ul {
+    position: absolute;
+    display: flex;
+
+}
+
+header ul li {
+    text-decoration: none;
+    color: white;
+
+}
+
+li.active {
+    text-transform: uppercase;
+    background-color: rgb(54, 52, 52);
+    width: 10vh;
+    height: 10vh;
+    margin-right: 2vh;
+    padding-left: 1.5vh;
+    padding-top: 2vh;
+    font-size: 40px;
+}
+
+li {
+    padding-top: 2.3vh;
+    font-size: 40px;
+}
+
+img {
+    height: 88vh;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 60px;
+    margin-right: 3vh;
+    margin-left: 3vh;
+    padding-bottom: 2vh;
+    padding-left: 1.5vh;
+    border: none;
+    border-bottom: 0.4px solid black;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 25px;
+}
+
+.top-row img {
+    width: 50%;
+    height: 250px;
+    float: left;
+    padding: 10px;
+}
+
+.bottom-row img {
+    width: 50%;
+    height: 250px;
+    float: left;
+    padding: 10px;
+}
+
+footer h3 {
+    margin-left: 3vh;
+    border: none;
+    border-bottom: 0.4px solid black;
+    margin-right: 3vh;
+    padding-bottom: 3vh;
+    padding-left: 1.5vh;
+    margin-top: 60px;
+}
+
+footer p {
+    margin-left: 3.5vh;
+    margin-right: 3vh;
+    margin-top: 2vh;
+    padding: 5px;
+}
+
+.section {
+    display: flex;
+    float: left;
+    justify-content: center;
+}
+
+.first-profile {
+    display: flex;
+    justify-content: center;
+    margin-left: 1vh;
+}
+
+.john-doe img {
+    width: 110%;
+    height: 250px;
+    padding: 4vh;
+    opacity: 0.5;
+}
+
+.john-doe p.a-b {
+    margin-top: 1px;
+    margin-left: 1.9vh;
+    position: relative;
+    bottom: 30px;
+    font-weight: bolder;
+    font-size: 3vh;
+    padding: 2vh;
+}
+
+.john-doe p.c-d {
+    position: relative;
+    bottom: 50px;
+    margin-left: 3vh;
+    padding: 1vh;
+    font-weight: lighter;
+    color: rgb(116, 116, 116);
+}
+
+.john-doe p.e-f {
+    position: relative;
+    bottom: 60px;
+    margin-left: 3.5vh;
+    padding-right: 2vh;
+    max-width: 350px;
+}
+
+.john-doe button {
+    margin-left: 4vh;
+    position: relative;
+    bottom: 50px;
+    width: 40vh;
+    height: 3.8vh;
+    cursor: pointer;
+    font-size: 2vh;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(162, 158, 158);
+}
+
+.jane-doe img {
+    width: 95%;
+    height: 250px;
+    padding: 4vh;
+    opacity: 0.5;
+    position: relative;
+    right: 1vh;
+}
+
+.jane-doe p.g-h {
+    position: relative;
+    bottom: 4vh;
+    right: 1vh;
+    font-weight: bolder;
+    font-size: 3vh;
+}
+
+.jane-doe p.i-j {
+    position: relative;
+    bottom: 5vh;
+    right: 1vh;
+    font-weight: lighter;
+    color: rgb(116, 116, 116);
+}
+
+.jane-doe p.k-l {
+    position: relative;
+    bottom: 6vh;
+    right: 1vh;
+    max-width: 370px;
+}
+
+.jane-doe button {
+    position: relative;
+    bottom: 4.5vh;
+    right: 8vh;
+    width: 44vh;
+    height: 3.8vh;
+    border: none;
+    font-size: 2vh;
+    cursor: pointer;
+    margin-left: 10vh;
+}
+
+.mike-ross img {
+    width: 120%;
+    height: 250px;
+    padding: 4vh;
+    position: relative;
+    right: 8.8vh;
+    opacity: 0.5;
+}
+
+.mike-ross p.m-n {
+    position: relative;
+    bottom: 4.3vh;
+    right: 8.8vh;
+    font-weight: bolder;
+    font-size: 3vh;
+}
+
+.mike-ross p.o-p {
+    position: relative;
+    bottom: 5vh;
+    right: 8.8vh;
+    font-weight: lighter;
+    color: rgb(116, 116, 116);
+}
+
+.mike-ross p.q-r {
+    position: relative;
+    bottom: 6vh;
+    right: 8.8vh;
+    max-width: 370px;
+}
+
+.mike-ross button {
+    position: relative;
+    bottom: 4.5vh;
+    right: 5.3vh;
+    width: 44vh;
+    height: 3.8vh;
+    border: none;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+.dan-star img {
+    width: 110%;
+    height: 250px;
+    padding: 4vh;
+    position: relative;
+    right: 5.4vh;
+    opacity: 0.5;
+}
+
+.dan-star p.s-t {
+    position: relative;
+    bottom: 4vh;
+    right: 5vh;
+    font-weight: bolder;
+    font-size: 3vh;
+}
+
+.dan-star p.u-v {
+    position: relative;
+    bottom: 5vh;
+    right: 5vh;
+    font-weight: lighter;
+    color: rgb(116, 116, 116);
+}
+
+.dan-star p.w-x {
+    position: relative;
+    bottom: 6vh;
+    right: 5vh;
+}
+
+.dan-star button {
+    width: 39vh;
+    height: 3.8vh;
+    position: relative;
+    bottom: 4.5vh;
+    right: 2vh;
+    border: none;
+    cursor: pointer;
+    font-size: 2vh;
+}
+
+.contact h4 {
+    font-weight: bolder;
+    font-size: larger;
+    padding: 15px;
+    border: none;
+    border-bottom: 0.4px solid black;
+    margin-left: 3vh;
+    margin-right: 3vh;
+}
+
+form {
+    padding: 3px;
+}
+
+.contact form p {
+    margin-left: 4vh;
+    margin-top: 2px;
+}
+
+.contact form input {
+    padding: 1.3vh;
+    margin-top: 4px;
+    margin-left: 4.5vh;
+    font-size: 2vh;
+    width: 177vh;
+    margin-bottom: 1.5vh;
+}
+
+.contact form button {
+    padding: 15px;
+    margin-top: 2vh;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    width: 18vh;
+    margin-left: 4.5vh;
+    cursor: pointer;
+    border: none;
+}
+
+.contact form button:hover {
+    color: black;
+    background-color: rgb(151, 149, 149);
+}
+
+.contact form img {
+    width: 177vh;
+    margin-left: 4.5vh;
+    margin-top: 4vh;
+}
+
+.contact form .footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 5vh;
+    margin-top: 0.5vh;
+}
+
+.contact form .footer p a {
+    color: white;
+    border: none;
+}
+
+.contact form .footer p a:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
